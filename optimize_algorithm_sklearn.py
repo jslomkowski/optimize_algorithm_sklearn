@@ -78,5 +78,5 @@ print('mape on test', mape(y_test, y_pred_test))
 print('mape on test scipy optimized', mape(y_test, y_pred_test, weight))
 
 # We can see that after optimizing our predictions error went down. This is done
-# on toy dataset so reduction is small. Test it on real business problem to se
+# on toy dataset so reduction is small. Test it on real business problem to see
 # better results
