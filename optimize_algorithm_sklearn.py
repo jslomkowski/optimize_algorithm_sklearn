@@ -7,9 +7,8 @@ only linear programming tools like scipy.optimize
 import numpy as np
 import pandas as pd
 from scipy.optimize import minimize
-from sklearn.datasets import load_boston
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import make_scorer, mean_absolute_error
+from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 
 
@@ -27,7 +26,7 @@ def mape(y, y_pred, weight=1):
     Returns:
         [float] -- mape error with added bias (default = 1)
     """
-    mape = round(mean_absolute_error(y, y_pred*weight) / np.mean(y), 4)
+    mape = round(mean_absolute_error(y, y_pred * weight) / np.mean(y), 4)
     return mape
 
 
@@ -65,7 +64,7 @@ y_pred_test = model.predict(X_test)
 # let's further minimize error by calling minimize on our predictions
 x0 = 1.0
 sol = minimize(objective, x0, method='Nelder-Mead')
-print('\n'+str(sol)+'\n')
+print('\n' + str(sol) + '\n')
 
 # weight is the optimized value that will further reduce error on our prediction
 # you have to multiply weight value by y_train to see how good it optimizes
