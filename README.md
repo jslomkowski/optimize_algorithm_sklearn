@@ -9,6 +9,12 @@ Simple repo showing how you can optimize the machine learning model using linear
 pip install python pandas scipy scikit-learn
 ```
 
+In Windows, you can also install all packages I use with environment.yml provided
+
+```sh
+conda env update --file environment.yml
+```
+
 ## Usage example
 
 Simply execute
