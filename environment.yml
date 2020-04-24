@@ -14,9 +14,9 @@ dependencies:
   - backcall=0.1.0=py_0
   - blas=1.0=mkl
   - blinker=1.4=py_1
-  - ca-certificates=2020.4.5.1=hecc5488_0
+  - ca-certificates=2020.1.1=0
   - cachetools=3.1.1=py_0
-  - certifi=2020.4.5.1=py37hc8dfbb8_0
+  - certifi=2020.4.5.1=py37_0
   - cffi=1.14.0=py37ha419a9e_0
   - chardet=3.0.4=py37hc8dfbb8_1006
   - click=7.1.1=pyh8c360ce_0
@@ -25,6 +25,7 @@ dependencies:
   - cycler=0.10.0=py_2
   - decorator=4.4.2=py_0
   - entrypoints=0.3=py37hc8dfbb8_1001
+  - flake8=3.7.9=py37_0
   - freetype=2.10.1=ha9979f8_0
   - gast=0.2.2=py_0
   - google-auth=1.13.1=pyh9f0ad1d_0
@@ -71,7 +72,7 @@ dependencies:
   - numpy=1.18.1=py37h90d3380_1
   - numpy-base=1.18.1=py37hc3f5095_1
   - oauthlib=3.0.1=py_0
-  - openssl=1.1.1f=hfa6e2cd_0
+  - openssl=1.1.1g=he774522_0
   - opt_einsum=3.2.0=py_0
   - packaging=20.1=py_0
   - pandas=1.0.3=py37h9b59f54_0
@@ -87,6 +88,7 @@ dependencies:
   - pyasn1-modules=0.2.7=py_0
   - pycodestyle=2.5.0=py_0
   - pycparser=2.20=py_0
+  - pyflakes=2.1.1=py37_0
   - pygments=2.6.1=py_0
   - pyjwt=1.7.1=py_0
   - pylint=2.4.4=py37_0
@@ -160,5 +162,5 @@ dependencies:
     - tqdm==4.45.0
     - update-checker==0.16
     - xgboost==1.0.2
-prefix: C:\Users\%USERPROFILE%\Miniconda3\envs\jslomkowski
+prefix: C:\Users\jerzy\miniconda3\envs\jslomkowski
 
