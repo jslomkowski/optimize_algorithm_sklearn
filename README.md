@@ -5,7 +5,7 @@ Simple repo showing how you can optimize the machine learning model using linear
 ## Required packages
 
 ```sh
-pip install python pandas scipy scikit-learn
+pip install pandas scipy scikit-learn
 ```
 
 In Windows, you can also install all packages I use with environment.yml provided
